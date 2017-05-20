@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,500');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+*{
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:boder-box;
+    box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+}
+body,
+html{padding: 0;
+    margin:0;
+    background-color: #27377b;
+}
+
+html{
+    width: 100%;
+    position: relative;
+}
+
+html:after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: "";
+    width: 100%;
+    height: 200px;
+    background-color: #d974ff;
+    z-index: 1;
+}
+
+body{
+    position: relative;
+    width: 800px;
+    background-color: white;
+    margin: 100px auto;
+    border: 10px solid green;
+    z-index: 5;
+    box-shadow: 10px 5px 30px #cbc6c6;
+}
+
+header,
+.experience-list,
+footer{
+    padding: 50px
+}
+
+header{
+    font-family:'Ostrich-sans';
+    background-color: #93ccff;
+}
+
+.name{
+    margin-top: 0;
+    color: #ff9200;
+}
+
+.name:before{
+    content: "chang "
+}
+
+/*note experience*/
+.experience{
+    border-bottom: 1px solid #909090;
+}
+
+.experience:last-child{
+    border-bottom: none;
+}
+
+p{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+h4{
+    text-transform: uppercase;
+}
+
+footer{
+    background-color: #f1ffa5;
+    color: #0c8af8;
+}
